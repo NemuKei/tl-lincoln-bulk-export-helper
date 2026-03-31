@@ -1,11 +1,12 @@
 # STATUS
 
-Last Updated: 2026-03-26
+Last Updated: 2026-03-31
 
 ## Overview
 
 - TL リンカーン向け userscript の開発基盤と配布基盤を整備した。
 - repo-template-codex 由来の運用骨格と、Chrome CDP 接続前提の userscript ビルド基盤を配置し、実行検証まで完了した。
+- `.agents/skills/` に、この repo で常用する Skill 群を導入し、AGENTS と README の参照関係を更新した。
 
 ## Done
 
@@ -16,6 +17,7 @@ Last Updated: 2026-03-26
 - 既存の認証済み Chrome プロファイルを remote debugging 付きで再起動する導線を追加した。
 - TL リンカーンの料金データ出力と残室データ出力を期間分割で一括実行する userscript を実装した。
 - GitHub Pages を使った userscript 配布と自動更新の導線を追加した。
+- 導入済み Skill 一覧と docs 運用ルールを `AGENTS.md`、`README.md`、`.agents/skills/README.md` に反映した。
 
 ## Next (max 3)
 

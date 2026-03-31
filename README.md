@@ -14,9 +14,23 @@ repo-template-codex から以下の考え方を引き継いでいます。
 
 - `AGENTS.md` を起点にした最小読込運用
 - `docs/context` と `docs/spec_*.md` を正本にするドキュメント骨格
+- `.agents/skills/` に必要最小限の Skill を常設する運用
 - `.editorconfig` と `.gitignore` の基本整備
 
 このリポジトリは TL リンカーン専用の userscript 開発用なので、ビルド設定と Chrome 接続補助はこの用途向けに作り直しています。
+
+## 運用ドキュメント
+
+日常運用で参照する入口は次の通りです。
+
+- `AGENTS.md`: repo-wide の常設ルール
+- `docs/spec_*.md`: 仕様の正本
+- `docs/context/STATUS.md`: 現況の正本
+- `docs/context/DECISIONS.md`: 将来影響のある判断の正本
+- `docs/tasks_backlog.md`: 未実装タスクと実行順
+- `.agents/skills/README.md`: 導入済み Skill の一覧
+
+導入済み Skill は、docs 更新判断、常設コンテキスト反映、verification、実装前調査、backlog 棚卸し、長めのスレッド整理に絞っています。詳細は `.agents/skills/README.md` と各 `SKILL.md` を参照してください。
 
 ## 必要な前提
 
