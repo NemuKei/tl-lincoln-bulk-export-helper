@@ -32,12 +32,12 @@ repo-template-codex の現行方針をベースに、正本優先・最小読込
 - 常時ルールや設計原則を別手順へ重複展開しない。
 - このリポジトリでは、必要頻度が高い Skill だけを `.agents/skills/` に常設する。運用一覧は `.agents/skills/README.md` を参照する。
 - 導入済み Skill:
-	- `context-writeback`: 常設コンテキストへの反映が必要なときに使う。手順は `.agents/skills/context-writeback/SKILL.md` を参照。
-	- `docs-governance`: ドキュメント新設や正本整理の判断が必要なときに使う。手順は `.agents/skills/docs-governance/SKILL.md` を参照。
-	- `verification-before-completion`: 完了や成功を主張する前に fresh verification を取るときに使う。手順は `.agents/skills/verification-before-completion/SKILL.md` を参照。
-	- `search-first`: 実装前に既存解、既存依存、外部候補を先に調べたいときに使う。手順は `.agents/skills/search-first/SKILL.md` を参照。
-	- `task-add-and-triage`: `docs/tasks_backlog.md` にタスク追加後、棚卸しと順番最適化を行うときに使う。手順は `.agents/skills/task-add-and-triage/SKILL.md` を参照。
-	- `thread-contract-handoff`: 長めのスレッドで目的、範囲、終了条件、handoff 要否を整理したいときに使う。手順は `.agents/skills/thread-contract-handoff/SKILL.md` を参照。
+  - `context-writeback`: 常設コンテキストへの反映が必要なときに使う。手順は `.agents/skills/context-writeback/SKILL.md` を参照。
+  - `docs-governance`: ドキュメント新設や正本整理の判断が必要なときに使う。手順は `.agents/skills/docs-governance/SKILL.md` を参照。
+  - `verification-before-completion`: 完了や成功を主張する前に fresh verification を取るときに使う。手順は `.agents/skills/verification-before-completion/SKILL.md` を参照。
+  - `search-first`: 実装前に既存解、既存依存、外部候補を先に調べたいときに使う。手順は `.agents/skills/search-first/SKILL.md` を参照。
+  - `task-add-and-triage`: `docs/tasks_backlog.md` にタスク追加後、棚卸しと順番最適化を行うときに使う。手順は `.agents/skills/task-add-and-triage/SKILL.md` を参照。
+  - `thread-contract-handoff`: 長めのスレッドで目的、範囲、終了条件、handoff 要否を整理したいときに使う。手順は `.agents/skills/thread-contract-handoff/SKILL.md` を参照。
 - 新規 Skill を追加する場合、名前は原則 hyphen-case とし、repo-wide の判断基準は root `AGENTS.md` 側を正本にする。
 
 ## Source Priority
